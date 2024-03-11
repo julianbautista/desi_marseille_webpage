@@ -1,0 +1,164 @@
+html {
+  scroll-behavior:smooth
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+
+body {
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: Tahoma, sans-serif;
+    line-height: 1.6;
+    background-image: url('img/calanque.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* Adjust as needed (e.g., 'contain', '100% 100%') */
+    background-attachment: fixed;
+    /*background-position: center center;  Adjust as needed */
+    background-repeat: no-repeat;
+}
+
+a, a:hover
+{ /*border-bottom: 1px dotted;*/
+  color: #00b7fa;
+  text-decoration: none;
+}
+
+
+/* Style the header */
+header {
+    background-color: #00000078;
+    color: #fff;
+    text-align: center;
+    padding: 1em; 
+    line-height: 1.6;  
+}
+
+/* Style the navigation */
+nav {
+    background-color: #eeeeee00;
+    padding: 1em;
+}
+
+
+
+  #menubar
+  { width: 60%;
+    height: 60px;
+    overflow: visible;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-top: 4px;
+    padding-left: 4px;} 
+  
+  ul#menu
+  { float: none;
+    }
+  
+  ul#menu li
+  { float: none;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0px;
+    list-style: none;}
+  
+  ul#menu li a
+  { letter-spacing: 0.1em;
+    font-family: sans-serif;
+    font-size: 120%;
+    display: block; 
+    float: left; 
+    height: 20px;
+    text-decoration: none; 
+    padding: 9px 15px 5px 15px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 3px 3px 3px #3b3b3b;
+    border: none;} 
+  
+  ul#menu li.selected a
+  { height: 20px;
+    padding: 7px 15px 4px 15px;}
+  
+  ul#menu li.selected
+  { margin: 7px 0 0 0;}
+  
+  ul#menu li.selected a, ul#menu li.selected a:hover
+  { color: #00b7fa;}
+  
+  ul#menu li a:hover
+  { color: #00b7fa;}
+
+
+
+/* Style the main content */
+main {
+    width: 60%;
+    overflow: hidden;
+    margin: 0 auto ;
+    background:   #00000078; /* url(back.png) repeat-y; */
+    /*border: 15px solid #FFF;*/
+    border: 40px solid  #00000000 ;
+    text-align: left;
+    color:   #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+ul
+{ margin: 2px 0px 0px 16px;
+  padding: 0px;}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px;}
+
+.button {
+    display: block;
+    width: 20%; 
+    padding: 10px 20px;
+    background-color: #00b7ff96;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Adjust the margin as needed */
+}
+.button:hover {
+    background-color: #19d5ff;
+}
+
+.container > img {
+    height: 100%;
+    width: auto;
+}
+
+.container {
+    justify-content: space-between;
+    height: 70px;
+    display: flex;
+    /*justify-content: center center;*/
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/* Style the footer */
+footer {    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
